@@ -1,14 +1,15 @@
 import './App.css';
-import Header from './components/header'
-import Content from './components/content'
+import Sidebar from './components/Sidebar/Sidebar'
+import Navbar  from './components/Navbar/Navbar'
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Content/>
+    <div className="App">
+      <Navbar/>
+      <Sidebar/>
     </div>
   );
 }
 
 export default App;
+

@@ -1,0 +1,11 @@
+p {
+  display: flex;
+  font-weight: bold;
+}
+.small {
+  font-size: small;
+  font-weight: 400;
+}
+.small:hover {
+  color: blue;
+}

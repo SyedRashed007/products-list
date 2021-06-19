@@ -1,0 +1,22 @@
+.navWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #2874f0;
+  color: white;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+img {
+  padding-right: 150px;
+}
+.navItemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItemWrapper > div {
+  padding-left: 12rem;
+}
